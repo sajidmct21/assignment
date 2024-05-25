@@ -1,0 +1,93 @@
+@font-face {
+  font-family: w800;
+  src: url("../fonts/PlusJakartaSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: w700;
+  src: url("../fonts/PlusJakartaSans-Bold.ttf");
+}
+@font-face {
+  font-family: w600;
+  src: url("../fonts/PlusJakartaSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: w500;
+  src: url("../fonts/PlusJakartaSans-Medium.ttf");
+}
+@font-face {
+  font-family: w400;
+  src: url("../fonts/PlusJakartaSans-Regular.ttf");
+}
+@font-face {
+  font-family: w300;
+  src: url("../fonts/PlusJakartaSans-Light.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primaryColor: #ff553c;
+  --white-color: #fff;
+  --text-color: #747474;
+}
+
+.announcementbar {
+  background: var(--primaryColor);
+  color: var(--white-color);
+}
+.announcementbar p {
+  font-family: w800;
+  font-size: 14.5px;
+  font-weight: 800;
+  line-height: 18.27px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.menu {
+  border-bottom: 1px solid #C5C5C5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 33px 0 17px;
+}
+.menu nav {
+  margin-left: 80px;
+}
+.menu nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.menu nav ul li {
+  margin-right: 39px;
+}
+.menu nav ul li a {
+  text-decoration: none;
+  font-family: w600;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.64px;
+  text-align: left;
+}
+.menu nav ul li button {
+  font-family: w600;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.64px;
+  text-align: left;
+  color: #2af0ea;
+  background: var(--white-color);
+  border: 1px solid #2af0ea;
+  border-radius: 9px;
+  padding: 13px 0px 13px 9px;
+}
+.menu nav ul li button svg {
+  padding-left: 12px;
+  padding-right: 5px;
+}
+.menu .menu-icon {
+  margin-left: 125px;
+}/*# sourceMappingURL=style.css.map */
