@@ -179,4 +179,45 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 11px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+}
+
+.red-cards {
+  display: flex;
+  justify-content: space-between;
+  background: var(--primaryColor);
+  border-radius: 27px;
+  margin: 78px 77px;
+  padding: 50px 51px 60px 67px;
+}
+.red-cards .card {
+  background: #ffffff;
+  width: 32%;
+  border-radius: 34px;
+}
+.red-cards .card h3 {
+  margin: 32px 0px 0 38px;
+  font-family: w700;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: left;
+}
+.red-cards .card p {
+  font-family: w300;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18.9px;
+  text-align: left;
+  margin: 35px 70px 0 38px;
+  padding-bottom: 38px;
 }/*# sourceMappingURL=style.css.map */
