@@ -1,0 +1,74 @@
+.twicsy-works {
+  margin: 78px 131px;
+}
+.twicsy-works .p1 {
+  font-family: w400;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: center;
+  color: #ff553c;
+}
+.twicsy-works h1 {
+  font-family: w700;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.48px;
+  text-align: center;
+  color: #000000;
+}
+.twicsy-works .p2 {
+  font-family: w500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  text-align: center;
+  color: #535050;
+  margin-top: 23px;
+  margin-left: 236px;
+  margin-right: 237px;
+}
+.twicsy-works .rectangle {
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  margin-top: 37px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+.twicsy-works .rectangle .cir-para {
+  display: flex;
+  align-items: center;
+}
+.twicsy-works .rectangle .cir-para .circle {
+  width: 85px;
+  height: 85px;
+  margin-left: 31px;
+  border-radius: 50%;
+  background: #2af0ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twicsy-works .rectangle .cir-para .p3 {
+  margin-left: 42px;
+  margin-right: 233px;
+  font-family: w400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+}
+.twicsy-works .rectangle .p4 {
+  font-family: w400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  margin-right: 109px;
+  margin-top: -14px;
+}
+.twicsy-works .rectangle .p4 span {
+  color: #2AF0EA;
+}/*# sourceMappingURL=twicsy.css.map */
