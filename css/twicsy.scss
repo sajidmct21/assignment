@@ -1,5 +1,5 @@
 .twicsy-works {
-//   border: 1px solid red;
+  //   border: 1px solid red;
   margin: 78px 131px;
   .p1 {
     font-family: w400;
@@ -39,7 +39,7 @@
     .cir-para {
       display: flex;
       align-items: center;
-    //   border: 1px solid red;
+      //   border: 1px solid red;
       .circle {
         width: 85px;
         height: 85px;
@@ -69,9 +69,102 @@
       text-align: left;
       margin-right: 109px;
       margin-top: -14px;
-      span{
-        color: #2AF0EA;
+      span {
+        color: #2af0ea;
       }
     }
+  }
+  .cards {
+    display: flex;
+    margin-top: 49px;
+    .card{
+      &:first-child{
+        margin-right: 26px;
+        background: #2AF0EA;
+        .num-heading{
+          .circle{
+            p{
+              color: #2af0ea;
+            }
+          }
+        }
+      }
+      &:nth-child(2){
+        margin-right: 26px;
+        background: #DE8C9D;
+        .num-heading{
+          .circle{
+            p{
+              color: #DE8C9D;
+            }
+          } 
+          h3{
+            color: #FFF3F6;
+          }         
+        }
+        .para{
+          color: #FFF3F6;
+          margin: 26px 72px 28px 28px;
+        }
+      }
+      &:nth-child(3){
+        background: #397684;
+        .num-heading{
+          .circle{
+            p{
+              color: #397684;
+            }
+          }
+          h3{
+            color: #96E5F8;
+          }
+        }
+        .para{
+          color: #96E5F8;
+        }
+      }
+    }
+    .card{
+      border-radius: 26px;
+      .num-heading {
+        display: flex;
+        margin-top: 29px;
+        margin-left: 28px;
+        align-items: center;
+        .circle {
+          width: 27px;
+          height: 27px;
+          border-radius: 50%;
+          background: #FFFFFF;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            font-family: w700;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20.16px;
+            text-align: left;
+          }
+        }
+        h3 {
+          font-family: w700;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 20.16px;
+          text-align: left;
+          margin-left: 35px;
+        }
+      }
+      .para {
+        font-family: w400;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.16px;
+        text-align: left;
+        margin: 26px 30px 40px 28px;
+      }
+    }
+    
   }
 }
