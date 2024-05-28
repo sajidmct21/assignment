@@ -373,4 +373,131 @@
   line-height: 20.16px;
   text-align: left;
   margin: 26px 30px 40px 28px;
+}
+
+.curious {
+  margin: 78px 132px 0 131px;
+}
+.curious .p1 {
+  font-family: w400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: center;
+  color: #ff553c;
+}
+.curious h1 {
+  font-family: w700;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.48px;
+  text-align: center;
+  color: #000000;
+  margin: 14px 234px 0 234px;
+}
+.curious .p2 {
+  font-family: w500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  text-align: center;
+  margin: 23px 182px 0 183px;
+  color: #545454;
+}
+.curious .rectangle {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  margin-top: 27px;
+  padding: 17px 0px 17px 28px;
+}
+.curious .rectangle .circle {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background: #fff3d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curious .rectangle .p3 {
+  font-family: w500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 129px;
+  color: #595959;
+}
+.curious .cards {
+  display: flex;
+  margin-top: 43px;
+}
+.curious .cards .card {
+  text-align: center;
+  border-radius: 26px;
+}
+.curious .cards .card:nth-child(1) {
+  background: #fff3d6;
+  margin-right: 26px;
+}
+.curious .cards .card:nth-child(1) p {
+  margin-left: 31px;
+  margin-right: 32px;
+  margin-bottom: 44px;
+}
+.curious .cards .card:nth-child(2) {
+  background: #cdf9fe;
+  margin-right: 26px;
+}
+.curious .cards .card:nth-child(2) h3 {
+  margin-top: -40px;
+}
+.curious .cards .card:nth-child(2) p {
+  margin-left: 53px;
+  margin-right: 54px;
+  margin-bottom: 35px;
+}
+.curious .cards .card:nth-child(3) {
+  background: #b083eb;
+}
+.curious .cards .card:nth-child(3) h3 {
+  margin-top: -40px;
+}
+.curious .cards .card:nth-child(3) p {
+  margin-left: 48px;
+  margin-right: 47px;
+  margin-bottom: 35px;
+  color: #353535;
+}
+.curious .cards .card h3 {
+  font-family: w500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  color: #000000;
+}
+.curious .cards .card p {
+  font-family: w400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: center;
+  color: #595959;
+  margin-top: 18px;
+}
+.curious .main-para {
+  font-family: w400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: center;
+  margin-top: 47px;
+  margin-left: 292px;
+  margin-right: 290px;
+}
+.curious .main-para span {
+  color: #FF553C;
 }/*# sourceMappingURL=style.css.map */
