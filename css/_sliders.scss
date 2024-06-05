@@ -1,0 +1,19 @@
+.s1{
+    .cards{
+        display: flex;
+        .card{
+            width: 30%;
+            height: 200px;
+            background: gray;
+            margin-left: 50px;
+            margin-top: 50px;
+            border-radius: 20px;
+            position: relative;
+            img{
+                position: absolute;
+                top: -14px;
+                left: 19px;
+            }
+        }
+    }
+}

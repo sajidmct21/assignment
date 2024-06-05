@@ -1,0 +1,121 @@
+.footer {
+  background: #faf9fc;
+  margin-top: 78px;
+  margin-left: 56px;
+  margin-right: 56px;
+  display: flex;
+  justify-content: space-around;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  .footer-logo {
+    margin-top: 21px;
+  }
+  .fo-menu {
+    nav {
+      ul {
+        margin-top: 43px;
+        li {
+          list-style-type: none;
+          margin-top: 16px;
+          a {
+            text-decoration: none;
+            font-family: w400;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.16px;
+            text-align: center;
+            color: #3a3a3a;
+          }
+        }
+      }
+    }
+  }
+  .fo-button-1 {
+    .b1 {
+      background: #ff553c;
+      color: white;
+      padding: 16px 28px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 39px;
+    }
+    .p1 {
+      font-family: w400;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16.8px;
+      text-align: center;
+      margin-top: 14px;
+      span {
+        color: #ff553c;
+      }
+    }
+  }
+}
+.last {
+  background: #faf9fc;
+  margin-left: 56px;
+  margin-right: 56px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  .language {
+    display: flex;
+    align-items: center;
+    padding-top: 76px;
+    margin-left: 85px;
+    button {
+      padding: 11px 18px;
+      font-family: w400;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20.16px;
+      text-align: center;
+      background: white;
+      border: none;
+      box-shadow: 4px 4px 13.1px 0px #00000040;
+      .svg1 {
+        margin-left: 5px;
+      }
+      .svg2 {
+        margin-left: 5px;
+      }
+    }
+    p {
+      margin-left: 158px;
+      font-family: w400;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 18.9px;
+      text-align: center;
+    }
+  }
+  .icon {
+    padding-top: 76px;
+    margin-right: 71px;
+  }
+}
+.end {
+  margin-left: 105px;
+  margin-right: 107px;
+  margin-top: 24px;
+  margin-bottom: 89px;
+  display: flex;
+  justify-content: space-between;
+  .links {
+    a {
+      font-family: w500;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20.16px;
+      text-align: center;
+      margin-right: 77px;
+      text-decoration: none;
+      color: #5C5C5C;
+
+    }
+  }
+}
